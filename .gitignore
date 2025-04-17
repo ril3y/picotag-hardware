@@ -1,0 +1,46 @@
+# KiCad project files to ignore
+*.bak
+*.tmp
+*.swp
+*.swo
+*.kicad_pcb-bak
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_sym-bak
+*.kicad_mod-bak
+*.dcm
+*.net
+*.csv
+*.xml
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+*.tar
+*.gz
+*.bkp
+*.log
+*.tmp
+*.cache
+*.backup
+*.DS_Store
+*.s#*
+*~
+__pycache__/
+# KiCad project-specific folders
+fp-info-cache/
+*.autosave
+*.restore
+# KiCad 6+ backup folders
+backup/
+# User-specific files
+*.user
+*.session
+*.sublime-workspace
+*.sublime-project
+*.idea/
+.vscode/
+*.iml
+# OS generated files
+Thumbs.db
+Desktop.ini
