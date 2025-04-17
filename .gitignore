@@ -30,6 +30,7 @@ __pycache__/
 # KiCad project-specific folders
 fp-info-cache/
 *.autosave
+*_autosave*
 *.restore
 # KiCad 6+ backup folders
 backup/
@@ -44,3 +45,4 @@ backup/
 # OS generated files
 Thumbs.db
 Desktop.ini
+*.lck
