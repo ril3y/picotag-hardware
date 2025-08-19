@@ -565,7 +565,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 132.08) (xy 101.6 133.35)
+			(xy 99.06 132.08) (xy 99.06 133.35)
 		)
 		(stroke
 			(width 0)
@@ -592,16 +592,6 @@
 			(type default)
 		)
 		(uuid "76453b03-5eca-4d15-94c7-ec560878ce38")
-	)
-	(wire
-		(pts
-			(xy 101.6 146.05) (xy 99.06 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ffd038c-ce02-4641-b38e-33128a1eb474")
 	)
 	(wire
 		(pts
@@ -635,17 +625,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 132.08) (xy 99.06 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3f5da79-5c06-4852-90f7-15890f097b36")
-	)
-	(wire
-		(pts
-			(xy 101.6 143.51) (xy 101.6 146.05)
+			(xy 99.06 143.51) (xy 99.06 146.05)
 		)
 		(stroke
 			(width 0)
@@ -827,7 +807,7 @@
 	)
 	(symbol
 		(lib_id "easyeda:FRC0603J103TS")
-		(at 101.6 138.43 90)
+		(at 99.06 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -836,7 +816,7 @@
 		(fields_autoplaced yes)
 		(uuid "07309437-bad5-40d1-a06b-49a8ee61f9cb")
 		(property "Reference" "R11"
-			(at 104.14 137.1599 90)
+			(at 101.6 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +825,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 104.14 139.6999 90)
+			(at 101.6 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,7 +834,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 109.22 138.43 0)
+			(at 106.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 138.43 0)
+			(at 99.06 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +852,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 138.43 0)
+			(at 99.06 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,7 +861,7 @@
 			)
 		)
 		(property "LCSC Part" "C2930027"
-			(at 111.76 138.43 0)
+			(at 109.22 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1097,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 146.05 0)
+		(at 109.22 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1126,7 +1106,7 @@
 		(fields_autoplaced yes)
 		(uuid "73a34c07-0d20-4fb7-a6fc-1da45ab72b47")
 		(property "Reference" "#PWR026"
-			(at 99.06 152.4 0)
+			(at 109.22 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1115,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 151.13 0)
+			(at 109.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,7 +1123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 146.05 0)
+			(at 109.22 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,7 +1132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 146.05 0)
+			(at 109.22 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,7 +1141,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 146.05 0)
+			(at 109.22 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +1563,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 109.22 114.3 0)
+		(at 99.06 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1592,7 +1572,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6c4f6ca-5c2d-4ca3-a2b5-55b8583e4c27")
 		(property "Reference" "#PWR025"
-			(at 109.22 118.11 0)
+			(at 99.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1581,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 109.22 109.22 0)
+			(at 99.06 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +1589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 114.3 0)
+			(at 99.06 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +1598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 114.3 0)
+			(at 99.06 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +1607,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 109.22 114.3 0)
+			(at 99.06 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
